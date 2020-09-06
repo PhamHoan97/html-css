@@ -1,0 +1,67 @@
+
+html,body{ margin:0; padding:0; height:100%; width:100%; }
+section {
+    width: 24%;
+    margin-left: 1%;
+}
+.new--article{
+    border: 1px solid red;
+    background-color: yellow;
+    /* size no full */
+    overflow:hidden;
+    margin-bottom: 2px;
+}
+
+.content--title{
+    float: left
+}
+
+.content--title img{
+    width: 50%;
+    height: 50%;
+    /* Dao thu tu */
+    float: right
+}
+
+.article{
+    width: 48%;
+    height: 12%;
+    /* khoang cach giua cac dong */
+    line-height: 10px;
+    /* sang ngang nen dat no trong 1 the div cha */
+    float: left;
+    margin-right: 2%;
+}
+
+.article > a{
+    font-size: 10px;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+.article > a:hover{
+    color: red;
+}
+
+.article img{
+    width: 100%;
+    height: 100%;
+}
+
+/* the a la the ma k the float left dc boi vay phai dat no trong 1 the div */
+.footer{
+    margin-top: 2px;
+}
+.last-article{
+    width: 30%;
+    float: left;
+}
+
+.last-article >img{
+    width: 60%;
+    float: left;
+}
+.last-article >a {
+    float: right;
+}

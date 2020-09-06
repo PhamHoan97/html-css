@@ -1,0 +1,74 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 92%;
+    height: 100%;
+    padding: 0 4% 0 4%;
+}
+
+.bantin {
+    width: 23%;
+    height: 300px;
+    position: relative;
+    float: left;
+}
+
+.layer11 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../B3/Image/322.jpg);
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.layer22 {
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
+    background: -webkit-linear-gradient(left, #eae0e04d, #4e4e42);
+}
+
+.layer22:hover {
+    opacity: 0;
+}
+
+.layer33 {
+    position: absolute;
+    z-index: 3;
+    padding: 15px 0px 15px 0px;
+    background-color: #33343ea1;
+    top: 216px;
+    transition: 0.4s;
+    width: 100%;
+}
+
+.bantin:hover .layer33 {
+    top: 185px;
+}
+
+.layer33>a {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bantin.tinto {
+    width: 46%;
+    height: 600px;
+}
+
+.layer33.layer33to {
+    top: 534px;
+}
+
+.bantin:hover .layer33.layer33to {
+    top: 500px;
+}

@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../B5/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../B5/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="51.css">
+</head>
+
+<body>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+        Launch demo modal
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <input name="name" id="name" class="btn btn-primary" type="button" value="1">
+    </div>
+    <nav class="breadcrumb">
+        <a class="breadcrumb-item" href="#">1</a>
+        <a class="breadcrumb-item" href="#">2</a>
+        <span class="breadcrumb-item active">3</span>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="alert alert-primary" role="alert">
+                    <strong>Basic bootstrap</strong>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="alert alert-success" role="alert">
+                    This is a success alert—check it out!
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="alert alert-warning">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <strong>Title!</strong> Alert body ...
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-large btn-block btn-primary">button</button>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-danger">button</button>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-outline-success">Hoan</button>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary btn-lg">button</button>
+                <br>
+                <button type="button" class="btn btn-primary btn-block">button2</button>
+                <button type="button" class="btn btn-primary btn-block">button3</button>
+            </div>
+        </div>
+        <!--
+            xs( extremely small),sm( small),md(medium),lg(large),xl(extremely large)
+            Muc dich reponsive
+            col-sm : tu chia deu -> tu sm tro len se dc reponsive , xuong k dc 
+            container,container-fluid 
+        -->
+
+        <div>Grid in bootstrap 4</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    One of three columns
+                </div>
+                <div class="col-sm">
+                    One of three columns
+                </div>
+                <div class="col-sm">
+                    One of three columns
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-primary active">
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked>111
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option2" autocomplete="off">222
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option3" autocomplete="off">333
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <nav class="navbar navbar-expand-sm navbar-dark menu--web">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavId">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <a class="dropdown-item" href="#">Action 1</a>
+                                        <a class="dropdown-item" href="#">Action 2</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2 search--web" type="text" placeholder="Search">
+                                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="../B5/Image/442.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Title</h4>
+                            <p class="card-text">Text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="../B5/Image/442.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Title</h4>
+                            <p class="card-text">Text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="../B5/Image/442.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Title</h4>
+                            <p class="card-text">Text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="../B5/Image/442.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Title</h4>
+                            <p class="card-text">Text</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="holder.js/100px180/" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Title</h4>
+                            <p class="card-text">Text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Card title 111</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Button</a>
+                            <a href="#" class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card text-white bg-dark">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Dark card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card bg-light">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Light card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <!-- Card Deck : do rong noi dung ben trong no bang nhau khi 1 cai dc keo dai -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="card-deck">
+                        <div class="card bg-dark border-warning">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Ultrices deleniti reprehenderitt
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card bg-light border-success">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                        <div class="card bg-dark border-warning">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Ultrices deleniti reprehenderitt
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card bg-light border-success">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card group : 
+                    Tu dong chia sao cho hop li : k co padding ,
+                    khac moi card-deck : co padding hay k ma thoi
+                -->
+                <div class="col-xl-6">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" data-src="holder.js/100x180/" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">
+                                    <p>At do congue sunt minus hac, dignissim eget adipiscing adipiscing optio pede inventore pede donec inceptos, ridiculus non, placeat massa egestas,</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" data-src="holder.js/100x180/" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" data-src="holder.js/100x180/" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" data-src="holder.js/100x180/" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card column : 
+                -->
+            </div>
+        </div>
+        <!-- Troi de lap day luon -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card-columns">
+                        <div class="card">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Penatibus mauris nostrud sagittis venenatis, viverra quam lorem eum cum, pellentesque aut! Modi nunc lectus, accusamus. Enim tempore lacinia est voluptates! Libero deserunt id unde quae saepe, litora, magnis quisquam, nec
+                                    beatae? Est minim, molestie, consectetuer eaque tempore, dolorem optio! Praesent natus, porttitor pede eiusmod? Convallis? Reprehenderit phasellus ultricies</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Penatibus mauris nostrud sagittis venenatis, viverra quam lorem eum cum, pellentesque aut! Modi nunc lectus, accusamus. Enim tempore lacinia est voluptates! Libero deserunt id unde quae saepe, litora, magnis quisquam, nec
+                                    beatae? Est minim, molestie, consectetuer eaque tempore, dolorem optio! Praesent natus, porttitor pede eiusmod? Convallis? Reprehenderit phasellus ultricies adipisicing natoque diam numquam molestie minus ducimus, porro
+                                    excepturi vestibulum ridiculus doloribus debitis viverra? Convallis! Cupidatat eos. Conubia adipiscing facilisi possimus proin morbi, nunc potenti parturient aut, ipsum congue,</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="holder.js/100x180/" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div id="carouselId" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselId" data-slide-to="1"></li>
+                            <li data-target="#carouselId" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img src="../B5/Image/441.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../B5/Image/442.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../B5/Image/nogain.jpg" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  end Tao slide : thay the data-src = src -->
+        <!-- Tao collapse -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="motcau">
+                        <p>
+                            <a class="btn btn-primary" data-toggle="collapse" href="#contentId1111" aria-expanded="false" aria-controls="contentId">
+                                Show 1111
+                            </a>
+                        </p>
+                        <div class="collapse" id="contentId1111">
+                            Pham Hoan 1111
+
+                        </div>
+                    </div>
+                    <div class="motcau">
+                        <p>
+                            <a class="btn btn-primary" data-toggle="collapse" href="#contentId2222" aria-expanded="false" aria-controls="contentId">
+                                Show 2222
+                            </a>
+                        </p>
+                        <div class="collapse" id="contentId2222">
+                            Pham Hoan 2222
+
+                        </div>
+                    </div>
+                    <div class="motcau">
+                        <p>
+                            <a class="btn btn-primary" data-toggle="collapse" href="#contentId3333" aria-expanded="false" aria-controls="contentId">
+                                Show 3333
+                            </a>
+                        </p>
+                        <div class="collapse" id="contentId3333">
+                            Pham Hoan 3333
+
+                        </div>
+                    </div>
+                    <div class="motcau">
+                        <p>
+                            <a class="btn btn-primary" data-toggle="collapse" href="#contentId4444" aria-expanded="false" aria-controls="contentId">
+                                Show 4444
+                            </a>
+                        </p>
+                        <div class="collapse" id="contentId4444">
+                            Pham Hoan 4444
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Form bootstrap 4 -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Example select</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect2">Example multiple select</label>
+                            <select multiple class="form-control" id="exampleFormControlSelect2">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <h2>AAA</h2>
+
+        </table>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+        <script src="../B5/bootstrap/js/bootstrap.js "></script>
+        <script src="../B5/bootstrap/js/bootstrap.min.js "></script>
+
+</body>
+
+</html>

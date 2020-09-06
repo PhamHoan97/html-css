@@ -1,0 +1,109 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navigation nav {
+    width: 100%;
+    padding: 20px 0px 20px 0px !important;
+    margin: 0 !important;
+}
+
+.navigation .collapse {
+    position: absolute;
+    right: 3%;
+}
+
+.navigation .collapse>ul {
+    font-family: 'Zhi Mang Xing';
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.navigation .collapse li {
+    margin-right: 20px;
+}
+
+.slide--image .content--slide1 {
+    position: absolute;
+    top: 50%;
+    color: white;
+}
+
+.slide--image .content--slide1>h1 {
+    font-family: 'Zhi Mang Xing';
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.slide--image .content--slide1>h5 {
+    font-family: 'Barlow Condensed';
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.btn_view--demo {
+    border: 1px solid gray;
+    background-color: none !important;
+}
+
+.btn_get--started {
+    border: 1px solid gray;
+    background-color: purple !important;
+}
+
+.btn_web--hosting {
+    position: absolute;
+    bottom: 17%;
+}
+
+.course {
+    padding-bottom: 100px;
+}
+
+.html--icon {
+    font-size: 100px;
+    color: red;
+}
+
+.car--icon {
+    font-size: 100px;
+    color: purple;
+}
+
+.name--course {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.btn_clickgif {
+    margin: 0 !important;
+    width: 100%;
+}
+
+.footer {
+    color: white;
+    line-height: 30px;
+}
+
+.img--footer {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.name {
+    margin-left: 2%;
+}
+
+.phone {
+    margin-left: 7%;
+}
+
+.address {
+    margin-left: 2%;
+}

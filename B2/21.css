@@ -1,0 +1,109 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*
+de reset all css -> cac the p h co co margin padding gi the
+
+*{
+    margin:0;
+    padding:0;
+*/
+
+.content {
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    position: relative;
+}
+
+.title1 {
+    width: 100%;
+    height: 500px;
+    /* Bo theo kich thuoc cua the a + nhuoc diem */
+    background-image: url(../B1/213.jpg);
+}
+
+
+/* 
+Co cac the da co san padd margin r nhe 
+the  a phai block moi xuong dc dong 
+margin : them khoang khong gian ben ngoai 
+padding : them khoang khong dan ben trong -> co thay doi kich thuoc 
+position : di chuyen 1 muc nao do k anh huong den muc khac 
+the cha bao quanh
+cac the con block 
+Cha : relative : thay doi cau truc + di chuyen dc vi tri + muc dich chi la di chuyen ma thoi
+Con : absolute ( khi co khoi cha ma thoi + chi di chuyen trong 1 pham vi + div mac dinh cac gia tri se la 0 : k dien gi mac dinh se la body) + cac vi tri botton,right,left,top : dung 1 trong 2 cap
+float : cac the con trong the cha ma thoi , theo le thang cha
+font-family : loai cho 
+font-style : in nghiem , hay thang 
+The div khac voi the p
+Overflow : chi co trong kich thuoc cua the cha ma thoi 
+Overflow : hidden + scoll : con hay mat di -> dat vao the cha 
+*/
+
+.title>a {
+    position: absolute;
+    margin-left: 20px;
+    display: block;
+    text-transform: capitalize;
+    bottom: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #f7f2ea;
+    font-family: -webkit-body;
+}
+
+.title>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.article {
+    float: left;
+    width: 49%;
+    margin-right: 1%;
+    /* overflow: hidden; */
+    border-bottom: 1px solid rgb(180, 178, 178);
+}
+
+.image--article {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+
+.image--article>a>img {
+    width: 100%;
+    border-radius: 5px;
+    height: 188px;
+    box-shadow: 5px 4px 13px #847d7d;
+}
+
+.link--article>a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #483333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.description {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.date {
+    /* Can k doi voi chuong ngai vat phia truoc */
+    text-align: center;
+    font-family: 'Zhi Mang Xing', cursive;
+}

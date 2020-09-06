@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 30px;
+    color: white;
+    font-family: initial;
+    margin-top: 4px;
+    font-weight: 800;
+}
+
+
+/* Dau lon >  chi dung cho huong toi cac the con gan nhat cua class */
+
+.collapse ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.collapse p {
+    color: white;
+}
+
+.maunen {
+    background: white;
+}
+
+.content--card {
+    background-color: #d8d8d8b8;
+    /* margin can le , padding can trong */
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.content--card .row {
+    margin-bottom: 20px;
+}
+
+
+/* Cach lay dom trong css , dc vi sau intro co junbotron -> jumbtron doc lap se k dc*/
+
+.intro>.jumbotron {
+    background-color: white;
+}
+
+.footer {
+    padding: 20px 0 0 0;
+}

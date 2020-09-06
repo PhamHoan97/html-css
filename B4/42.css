@@ -1,0 +1,69 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* K hien thi thanh phong to nua -> k bi tran ra ngoai */
+    overflow: hidden;
+}
+
+.menu>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    transition: 1.4s;
+    animation: zoomin 10s forwards;
+}
+
+.content {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    animation: zozo 2s forwards;
+    /* Đứng yên k hoạt động */
+    animation-delay: 1s;
+}
+
+.content>p {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: white;
+}
+
+
+/* .menu:hover img {
+    transform: scale(2);
+} */
+
+@keyframes zoomin {
+    from {
+        transform: scale(2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+
+/* An hien */
+
+@keyframes zozo {
+    from {
+        top: 40%;
+        opacity: 0;
+    }
+    to {
+        top: 50%;
+        opacity: 1;
+    }
+}

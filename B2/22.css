@@ -1,0 +1,123 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+
+/*
+    Thuoc tinh display 
+    display:inline : chi chua kich thuoc cua no 
+    display:block : chua toan bo khung cua man hinh 
+    display:inline-block 
+    Cac the dc position : phai la block / inline-block 
+    Float : keo theo tat ca thang duoi float theo
+    
+ */
+
+.display {
+    display: inline-block;
+}
+
+.article--hot {
+    width: 100%;
+    overflow: auto;
+}
+
+.new--hot {
+    width: 30%;
+    margin-right: 1%;
+    float: left;
+    border: 1px solid #e0e0ec;
+}
+
+.article--ralative {
+    /* clear: left; */
+    margin-top: 100px;
+}
+
+.title-new {
+    font-size: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #5454af;
+    border-top: 5px solid #060b4a;
+    display: inline-block;
+}
+
+.content-newhot {
+    background-color: #e9ecf9;
+}
+
+.content-newhot>img {
+    width: 94%;
+    padding: 0 3% 0 3%;
+}
+
+.content-newhot>a {
+    font-size: 20px;
+    font-family: 'Zhi Mang Xing', cursive;
+    text-decoration: none;
+    margin-bottom: 20px;
+    line-height: 15px;
+    color: #170101;
+    padding: 0 3% 0 3%;
+    display: inline-block;
+}
+
+.content-newhot>a:hover {
+    color: orange;
+}
+
+.new--hot>ul {
+    color: #4a3849;
+    list-style-type: square;
+}
+
+.title {
+    border-bottom: 2px solid orange;
+    border-top: 1px solid black;
+    margin-bottom: 36px;
+    height: 3px;
+}
+
+h2 {
+    position: relative;
+    font-family: 'Noto Serif', serif;
+    top: -37px;
+    left: 50px;
+    background: white;
+    /* chuyen thanh inline-block de co the di chuyen */
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bantin {
+    width: 18%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+}
+
+.bantin img {
+    width: 100%;
+}
+
+.bantin a {
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.bantin a:hover {
+    color: orange;
+}

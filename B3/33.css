@@ -1,0 +1,89 @@
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0 0 0 10%;
+}
+
+.article {
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+}
+
+.top {
+    position: relative;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.image {
+    background-image: url(../B3/Image/331.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+.top>.title {
+    position: absolute;
+    z-index: 2;
+    width: 30%;
+    /* Tao kich thuoc cua o vuong bang padding  */
+    padding: 10px 10px 10px 10px;
+    background-color: blue;
+    text-align: center;
+}
+
+.square {
+    position: absolute;
+    z-index: 3;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    top: 390px;
+    transform: rotate(45deg);
+}
+
+
+/* car 3 cung float */
+
+.avatar {
+    /* loai bo float left bat dau lai float left  */
+    overflow: auto;
+    float: left;
+}
+
+.mid {
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.avatar>img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% 50%;
+}
+
+.avatar>.name {
+    margin-top: 11px;
+    margin-left: 8px;
+    float: left;
+}
+
+.like {
+    float: right;
+    margin-top: 5px;
+}
+
+.like>div {
+    padding: 4px 4px 4px 4px;
+    background-color: blue;
+    color: white;
+}

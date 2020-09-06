@@ -1,0 +1,24 @@
+html,
+body,
+h2 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    background-image: url(../B3/Image/311.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tt--banner {
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
